@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #E0F7FA; 
+    color: #333333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    width: 400px; 
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #FF6F61; 
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timeDisplay {
+    font-size: 3em;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid #FF6F61; 
+    border-radius: 10px;
+    color: #FF6F61;
+    background-color: rgba(255, 111, 97, 0.1); 
+    transition: all 0.3s ease;
+}
+
+
+
+input[type="date"] {
+    margin-top: 10px;
+    padding: 12px; 
+    font-size: 16px;
+    border: 3px solid #FF6F61; 
+    border-radius: 10px; 
+    outline: none;
+    background-color: rgba(255, 111, 97, 0.1); 
+    color: #FF6F61; 
+    transition: border-color 0.3s, background-color 0.3s; 
+}
+
+
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 12px; 
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #87CEEB; 
+    color: white;
+    transition: background-color 0.3s;
+    font-weight: bold; 
+}
+
+.buttons button:hover {
+    background-color: #3dbcef; 
+}
+
+.buttons button:active {
+    transform: scale(0.95); 
+}

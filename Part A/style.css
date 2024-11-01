@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E0F7FA; 
+    color: #333333; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #F5F5F5; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    text-align: center;
+    color: #FF6F61; 
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333; 
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc; 
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    font-size: 16px;
+    background-color: #FFFFFF; 
+    color: #4F4F4F; 
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #FF6F61;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #87CEEB; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; 
+}
+
+button:hover {
+    background-color: #3dbcef; 
+}
+
+button:disabled {
+    background-color: #cccccc; 
+}
+
+.error {
+    color: #FF6347; 
+    margin-top: 5px;
+}
+
+.result {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF6347; 
+    text-align: center;
+    margin-top: 20px; 
+}
